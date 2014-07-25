@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enabling this option will apply your current theme/icon mask to your custom image. If you're having transparency issues, disable this.
+
+Respring to take effect.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Apply Icon Masks</string>
+			<key>id</key>
+			<string>shouldUseIconsMasks</string>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.customfoldericons</string>
+			<key>key</key>
+			<string>shouldUseIconMasks</string>
+			<key>default</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>com.fortysixandtwo.customfoldericons/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Appearance</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Hide Minigrid</string>
+			<key>id</key>
+			<string>shouldHideMiniGrid</string>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.customfoldericons</string>
+			<key>key</key>
+			<string>shouldHideMiniGrid</string>
+			<key>default</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>com.fortysixandtwo.customfoldericons/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Hide Application Labels</string>
+			<key>id</key>
+			<string>shouldHideIconLabels</string>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.customfoldericons</string>
+			<key>key</key>
+			<string>shouldHideIconLabels</string>
+			<key>default</key>
+			<false/>
+			<key>PostNotification</key>
+			<string>com.fortysixandtwo.customfoldericons/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Hide Folder Labels</string>
+			<key>id</key>
+			<string>shouldHideFolderIconLabels</string>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.customfoldericons</string>
+			<key>key</key>
+			<string>shouldHideFolderIconLabels</string>
+			<key>default</key>
+			<false/>
+			<key>PostNotification</key>
+			<string>com.fortysixandtwo.customfoldericons/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Hide Folder Badges</string>
+			<key>id</key>
+			<string>shouldHideFolderBadges</string>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.customfoldericons</string>
+			<key>key</key>
+			<string>shouldHideFolderBadges</string>
+			<key>default</key>
+			<false/>
+			<key>PostNotification</key>
+			<string>com.fortysixandtwo.customfoldericons/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Author</string>
+			<key>footerText</key>
+			<string>© 2014 fortysixandtwo, ltd.</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>@magn2o</string>
+			<key>action</key>
+			<string>launchTwitter:</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>CustomFolderIcons</string>
+</dict>
+</plist>

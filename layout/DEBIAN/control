@@ -1,0 +1,11 @@
+Package: com.fortysixandtwo.customfoldericons
+Name: CustomFolderIcons
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: pl.vertex.foldericons
+Version: 0.9.6
+Architecture: iphoneos-arm
+Description: A simple no-frills custom icon tweak.
+Depiction: http://repo.fortysixandtwo.com/x/com.fortysixandtwo.customfoldericons
+Maintainer: magn2o
+Author: magn2o
+Section: Tweaks
