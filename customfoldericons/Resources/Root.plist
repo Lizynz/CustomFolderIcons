@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+    <array>
+	    <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>File to /Library/Application Support/CustomFolderIcons/FolderImage.png</string>
+		</dict>
+	    <dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>id</key>
+			<string>shouldUseIconsMasks</string>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.customfoldericons</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>default</key>
+			<false/>
+			<key>PostNotification</key>
+			<string>com.fortysixandtwo.customfoldericons/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Select Image</string>
+			<key>action</key>
+			<string>chooseImage</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Hide Minigrid</string>
+			<key>id</key>
+			<string>shouldHideMiniGrid</string>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.customfoldericons</string>
+			<key>key</key>
+			<string>shouldHideMiniGrid</string>
+			<key>default</key>
+			<false/>
+			<key>PostNotification</key>
+			<string>com.fortysixandtwo.customfoldericons/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Author</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>© 2015/2018 fortysixandtwo, ltd.</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+                        <key>cell</key>
+			<string>PSLinkCell</string>
+			<key>action</key>
+			<string>github</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>Source code ~ Lizynz</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>iOS 8.4 - 11.4 - @Lizynz1</string>
+			<key>action</key>
+			<string>twitter</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+		</dict>
+		<dict>
+                        <key>cell</key>
+			<string>PSLinkCell</string>
+			<key>action</key>
+			<string>github2</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>Source code ~ magn2o</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Developer - @magn2o</string>
+			<key>action</key>
+			<string>launchTwitter</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>CustomFolderIcons</string>
+</dict>
+</plist>

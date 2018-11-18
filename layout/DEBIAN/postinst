@@ -1,7 +1,0 @@
-#!/bin/sh
-
-CFIPATH=/private/var/mobile/Library/CustomFolderIcons
-
-if [ ! -d $CFIPATH ]; then
-  mkdir $CFIPATH
-fi

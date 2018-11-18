@@ -5,15 +5,15 @@
 	<key>entry</key>
 	<dict>
 		<key>bundle</key>
-		<string>CustomFolderIconsSettings</string>
+		<string>CustomFolderIcons</string>
 		<key>cell</key>
 		<string>PSLinkCell</string>
 		<key>detail</key>
-		<string>CFIListController</string>
+		<string>XXXRootListController</string>
 		<key>icon</key>
-		<string>Icon.png</string>
+		<string>CustomFolderIcons.png</string>
 		<key>isController</key>
-		<string>1</string>
+		<true/>
 		<key>label</key>
 		<string>CustomFolderIcons</string>
 	</dict>
