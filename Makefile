@@ -1,10 +1,10 @@
 export ARCHS = arm64
 DEBUG = 0
-export TARGET = iphone:clang:9.3
+export TARGET = iphone:clang:11.2
 
-PACKAGE_VERSION = 11.0-1
+PACKAGE_VERSION = 11.0-2
 
-export SYSROOT = $(THEOS)/sdks/iPhoneOS9.3.sdk
+export SYSROOT = $(THEOS)/sdks/iPhoneOS11.2.sdk
 
 include $(THEOS)/makefiles/common.mk
 
