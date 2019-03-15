@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>items</key>
-    <array>
-	    <dict>
+	<array>
+		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerAlignment</key>
@@ -12,7 +12,7 @@
 			<key>footerText</key>
 			<string>File to /Library/Application Support/CustomFolderIcons/FolderImage.png</string>
 		</dict>
-	    <dict>
+		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>label</key>
@@ -60,12 +60,12 @@
 			<key>footerAlignment</key>
 			<integer>1</integer>
 			<key>footerText</key>
-			<string>© 2015/2018 fortysixandtwo, ltd.</string>
+			<string>© 2015/2019 fortysixandtwo, ltd.</string>
 			<key>isStaticText</key>
 			<true/>
 		</dict>
 		<dict>
-                        <key>cell</key>
+			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>action</key>
 			<string>github</string>
@@ -78,14 +78,14 @@
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>label</key>
-			<string>iOS 8.4 - 11.4 - @Lizynz1</string>
+			<string>iOS 11.0 - 12.1.2 - @Lizynz1</string>
 			<key>action</key>
 			<string>twitter</string>
 			<key>icon</key>
 			<string>Twitter.png</string>
 		</dict>
 		<dict>
-                        <key>cell</key>
+			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>action</key>
 			<string>github2</string>

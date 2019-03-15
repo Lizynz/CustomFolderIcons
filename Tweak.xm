@@ -56,14 +56,11 @@ folderIcon.layer.cornerRadius = [%c(SBIconImageView) cornerRadius];
 %end
 
 %hook SBFolderIconBackgroundView
-
 -(void)setWallpaperBackgroundRect:(CGRect)arg1 forContents:(CGImageRef)arg2 withFallbackColor:(CGColorRef)arg3 {
 if (enabled) {
-
-} else {
+      }else{
 return %orig;
 }}
-
 %end
 
 %hook SBFolderBackgroundView
@@ -93,7 +90,7 @@ return %orig;
 - (void)layoutSubviews {
 if (enabled) {
 _backgroundImageView.hidden = NO;
-} else {
+}else{
 return %orig;
 }}
 
