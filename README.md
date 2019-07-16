@@ -1,2 +1,2 @@
 # CustomFolderIcons
-Support iOS 11.0 ~ 12.1.2
+Support iOS 11.x ~ 12.x
