@@ -2,7 +2,7 @@ export ARCHS = arm64 arm64e
 DEBUG = 0
 export TARGET = iphone:clang:12.1
 
-PACKAGE_VERSION = 12.1
+PACKAGE_VERSION = 13.0
 
 export SYSROOT = $(THEOS)/sdks/iPhoneOS12.1.sdk
 

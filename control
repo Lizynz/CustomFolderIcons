@@ -1,5 +1,5 @@
 Package: CustomFolderIcons
-Depends: firmware (>= 11.0), mobilesubstrate
+Depends: firmware (>= 13.0), mobilesubstrate
 Conflicts: pl.vertex.foldericons, com.xtm3x.noblur, com.lizynz.fullfolderx, com.lizynz.fullfolder11
 Version: 1.0
 Architecture: iphoneos-arm
