@@ -1,15 +1,10 @@
 static BOOL enabled;
 
-@interface SBIconView : UIView
-+ (CGSize)defaultIconImageSize;
-@end
-
-@interface SBFolderIconView : UIView
-- (UIView *)backgroundView;
+@interface SBFolderIconImageView : UIView 
+@property (nonatomic, retain) UIView *backgroundView;
 @end
 
 @interface SBFolderBackgroundView : UIView
-+ (CGSize)folderBackgroundSize;
 + (double)cornerRadiusToInsetContent;
 @end
 
@@ -18,11 +13,10 @@ UIImageView* _folderIcon;
 
 %hook SBFolderIconImageView
 
-- (UIView *)backgroundView {
+- (void)setBackgroundView:(UIView *)arg1 {
+        %orig;
       
       if(enabled) {
-      
-      UIView * view = %orig;
       
       UIImageView *folderIcon = MSHookIvar<UIImageView *>(self, "_folderIcon");
       folderIcon = [[UIImageView alloc]initWithImage:[UIImage imageWithContentsOfFile:@"/Library/Application Support/CustomFolderIcons/FolderImage.png"]];
@@ -31,11 +25,12 @@ UIImageView* _folderIcon;
       newFrame.size = CGSizeMake(60, 60);
       folderIcon.frame = newFrame;
       
-      [view addSubview:folderIcon];
+      self.backgroundView.layer.masksToBounds = YES;
+      self.backgroundView.layer.cornerRadius = 13;
       
-      return view;
+      [self.backgroundView insertSubview:folderIcon atIndex:1];
+      
       }
-   return %orig;
 }
 
 %end
@@ -64,6 +59,13 @@ UIImageView* _folderIcon;
       }
    return %orig;
 }
+
+- (void)layoutSubviews {
+      if (enabled) {
+      _backgroundImageView.hidden = NO;
+      }else{
+      return %orig;		
+ }}
 
 %end
 

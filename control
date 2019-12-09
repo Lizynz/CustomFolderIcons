@@ -1,6 +1,6 @@
 Package: CustomFolderIcons
 Depends: firmware (>= 13.0), mobilesubstrate
-Conflicts: pl.vertex.foldericons, com.xtm3x.noblur, com.lizynz.fullfolderx, com.lizynz.fullfolder11
+Conflicts: pl.vertex.foldericons, com.xtm3x.noblur, com.lizynz.fullfolderx, com.lizynz.fullfolder11, com.lizynz.foldercolor
 Version: 1.0
 Architecture: iphoneos-arm
 Description: A simple no-frills custom icon and background tweak.

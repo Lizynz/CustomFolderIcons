@@ -62,7 +62,7 @@
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>label</key>
-			<string>iOS 11.0 - 12.1.2 - @Lizynz1</string>
+			<string>iOS 13.x- @Lizynz1</string>
 			<key>action</key>
 			<string>twitter</string>
 			<key>icon</key>
