@@ -26,7 +26,7 @@ UIImageView* _folderIcon;
       folderIcon.frame = newFrame;
       
       self.backgroundView.layer.masksToBounds = YES;
-      self.backgroundView.layer.cornerRadius = 13;
+      self.backgroundView.layer.cornerRadius = 13.5;
       
       [self.backgroundView insertSubview:folderIcon atIndex:1];
       
